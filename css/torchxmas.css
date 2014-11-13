@@ -3,27 +3,49 @@ body{
 margin-top: 50px;
 }
 
+.xmcontainer{
+	padding-left: 50px;
+	padding-right:50px;
+}
 .h_banner{
-	background-color: #b9468a;
+	background-color: #fcbd5b;
+	background-image: url(../img/banner.png);
+	background-size:contain;
+	background-position: center center;
+	background-repeat: no-repeat;
 	padding-top: 25px;
+
 	height: 250px;
 }
 
-.linl_1{
-	background-color: #b9468a;
+.link_1,.link_2,.link_3,.link_4{
+	min-height: 400px;
+	display: block;
+
+}
+
+.link_1{
+	background-color: #ffe89a;
+	margin-left: 0px;
 }
 
 
-.linl_2{
-	background-color: #b9468a;
+.link_2{
+	background-color: #fff8e0;
 }
 
 
-.linl_3{
-	background-color: #b9468a;
+.link_3{
+	background-color: #ffe89a;
 }
 
 
-.linl_4{
-	background-color: #b9468a;
+.link_4{
+	background-color: #fff8e0;
+		margin-right: 0px;
+}
+
+.hl{
+	color: #fcbd5b;
+	font-weight: bolder;
 }
