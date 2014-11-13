@@ -1,5 +1,4 @@
 body{
-
 margin-top: 50px;
 }
 
@@ -14,36 +13,29 @@ margin-top: 50px;
 	background-position: center center;
 	background-repeat: no-repeat;
 	padding-top: 25px;
-
 	height: 250px;
 }
 
-
 .link_1,.link_2,.link_3,.link_4{
-	min-height: 400px;
 	display: block;
-
+	background-color: #fddfb1;
 }
 
-.link_1{
+.linkinfo{
+	width:100%;
+	min-height: 400px;
+	padding-bottom: 50px;
+}
+.link_1 .linkinfo,.link_3 .linkinfo{
 	background-color: #ffe89a;
-	margin-left: 0px;
+
 }
-
-
-.link_2{
+.linkinfo h3,.linkinfo h4,.linkinfo p{
+	margin: 10px;
+}
+.link_4 .linkinfo,.link_2 .linkinfo{
 	background-color: #fff8e0;
-}
 
-
-.link_3{
-	background-color: #ffe89a;
-}
-
-
-.link_4{
-	background-color: #fff8e0;
-		margin-right: 0px;
 }
 
 .hl{
@@ -51,3 +43,9 @@ margin-top: 50px;
 	font-weight: bolder;
 }
 
+.linkimg{
+	width: 100%;
+}
+.intro{
+	margin-top: 40px;
+}
