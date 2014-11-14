@@ -24,14 +24,25 @@ margin-top: 50px;
 
 .linkinfo{
 	width:100%;
-	min-height: 650px;
-	padding-bottom: 50px;
+	min-height: 600px;
+	padding-bottom: 10px;
 }
 .link_1 .linkinfo,.link_3 .linkinfo{
 	background-color: #ffe89a;
 
 }
-.linkinfo h3,.linkinfo h4,.linkinfo p{
+.morebtn{
+	text-align: center;
+}
+.morebtn a{
+	width: 100%;
+}
+.linkinfo .infointro{
+	display: block;
+	min-height: 300px;
+}
+
+.linkinfo h3,.linkinfo h4,.linkinfo p,.morebtn{
 	margin: 10px;
 }
 .link_4 .linkinfo,.link_2 .linkinfo{
