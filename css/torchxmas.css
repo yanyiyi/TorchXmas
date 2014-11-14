@@ -54,7 +54,8 @@ margin-top: 50px;
 .movie{
 	background-color: #ffd900;
 	margin-bottom: 20px;
-	min-height: 360px;
+	min-height: 320px;
+	height: 320px;
 	padding: 20px;
 }
 .tubeframe{
