@@ -94,7 +94,7 @@ margin-top: 50px;
 		margin-bottom: 0px;
 	}
 	.tubeframe{
-		height: 128px;
+		height: 160px;
 	}
 
 }
@@ -106,6 +106,14 @@ margin-top: 50px;
 	margin-top: 75px;
 }
 
+.link_3 .linkinfo{
+	background-color: #fff8e0;
+
+}
+.link_4 .linkinfo{
+	background-color: #ffe89a;
+
+}
 
 
 }
