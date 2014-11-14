@@ -52,14 +52,13 @@ margin-top: 50px;
 }
 
 .movie{
+	display: inline-block;
 	background-color: #ffd900;
 	margin-bottom: 20px;
 	min-height: 320px;
 	height: 320px;
-	overflow: auto;
-	padding: 20px;
+	overflow: visible;
 }
 .tubeframe{
-
 	height: 100%;
 }
