@@ -34,7 +34,7 @@ margin-top: 50px;
 }
 .linkinfo .infointro{
 
-	min-height: 300px;
+	min-height: 350px;
 }
 
 .linkinfo h3,.linkinfo h4,.linkinfo p,.morebtn{
@@ -46,7 +46,6 @@ margin-top: 50px;
 }
 .link_4 .linkinfo,.link_2 .linkinfo{
 	background-color: #fff8e0;
-
 }
 
 .hl{
@@ -123,6 +122,14 @@ margin-top: 50px;
 @media (min-width: 992px){
 	body{
 	margin-top: 50px;
+
+	}
+	.link_3 .linkinfo{
+		background-color: #ffe89a;
+
+	}
+	.link_4 .linkinfo{
+		background-color: #fff8e0;
 
 	}
 }
