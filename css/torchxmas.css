@@ -65,7 +65,7 @@ margin-top: 50px;
 .movie{
 	background-color: #ffd900;
 	margin-bottom: 20px;
-
+	width: 100%;
 }
 .tubeframe{
 	height: 320px;
@@ -95,6 +95,9 @@ margin-top: 50px;
 	}
 	.tubeframe{
 		height: 160px;
+	}
+	.phones{
+		padding: 0px;
 	}
 
 }
