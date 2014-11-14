@@ -18,7 +18,7 @@ margin-top: 50px;
 
 .link_1,.link_2,.link_3,.link_4{
 	display: block;
-	background-color: #fddfb1;
+	background-color: transparent;
 	margin-bottom: 20px;
 }
 
@@ -27,10 +27,6 @@ margin-top: 50px;
 	min-height: 600px;
 	padding-bottom: 10px;
 }
-.link_1 .linkinfo,.link_3 .linkinfo{
-	background-color: #ffe89a;
-
-}
 .morebtn{
 	text-align: center;
 }
@@ -38,12 +34,16 @@ margin-top: 50px;
 	width: 100%;
 }
 .linkinfo .infointro{
-	display: block;
+
 	min-height: 300px;
 }
 
 .linkinfo h3,.linkinfo h4,.linkinfo p,.morebtn{
 	margin: 10px;
+}
+.link_1 .linkinfo,.link_3 .linkinfo{
+	background-color: #ffe89a;
+
 }
 .link_4 .linkinfo,.link_2 .linkinfo{
 	background-color: #fff8e0;
@@ -70,3 +70,52 @@ margin-top: 50px;
 .tubeframe{
 	height: 320px;
 }
+
+@media (max-width: 767px){
+	body{
+		margin-top: 50px;
+	}
+	.h_banner{
+		height: 125px;
+		background-image: url(../img/2014-xmas-web-OL_banner-640x125.png);
+
+	}
+	.morebtn{
+		display: none;
+	
+	}
+	 .infointro{
+	 	display: none;
+	 }
+	 .link_1,.link_2,.link_3,.link_4{
+		display: block;
+		height: 150px;
+		padding: 0px;
+	}
+	.movie{
+		margin-bottom: 0px;
+	}
+	.tubeframe{
+	height: 240px;
+}
+
+}
+
+
+
+@media (min-width: 768px){
+	body{
+	margin-top: 75px;
+}
+
+
+
+}
+
+@media (min-width: 992px){
+	body{
+	margin-top: 50px;
+
+}
+
+
