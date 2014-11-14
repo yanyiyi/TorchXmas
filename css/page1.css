@@ -1,0 +1,57 @@
+
+
+.h_banner{
+	background-color: #fff;
+	background-image: url(../img/20141111_TORCH_taste_of_happiness_950px_250px.jpg);
+	background-size:contain;
+	background-position: center center;
+	background-repeat: no-repeat;
+	padding-top: 25px;
+	height: 250px;
+}
+
+.maininfo{
+
+	width: 100%;
+	background-color: #FFF;
+}
+
+
+.row{
+	background-color: #FFF;}
+
+.maps{
+	width:80%;
+	background-color: #ffd900;
+	padding: 15px;
+	border-radius: 10px;
+}
+footer{
+	background-color: #ffd900;		
+	}
+footer .h_banner{
+	background-color: #ffd900;
+	background-image: url(../img/2014-xmas-web_banner-950x250.jpg);
+}
+
+
+@media (max-width: 767px){
+	
+	.h_banner{
+		height: 125px;
+		background-image: url(../img/20141111_TORCH_taste_of_happiness_640px_125px.jpg);
+
+	}
+	.maininfo{
+	margin: 0px;
+	}
+
+	.maps{
+		width:100%;
+
+	}
+	h3,h4,p{
+		margin:15px;
+	}
+
+}
