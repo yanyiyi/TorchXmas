@@ -1,8 +1,8 @@
 
 
 .h_banner{
-	background-color: #fff;
-	background-image: url(../img/20141111_TORCH_taste_of_happiness_950px_250px.jpg);
+	background-color: #FFF;
+	background-image: url(../img/2014-xmas-web-OL_univ-950x250.png);
 	background-size:contain;
 	background-position: center center;
 	background-repeat: no-repeat;
@@ -13,16 +13,16 @@
 .maininfo{
 
 	width: 100%;
-	background-color: #FFF;
+	background-color: #000;
 }
 
 
 .row{
-	background-color: #FFF;}
+	background-color: #000;}
 
 .maps{
 	width:80%;
-	background-color: #ffd900;
+	background-color: #333;
 	padding: 15px;
 	border-radius: 10px;
 }
@@ -31,7 +31,7 @@
 	
 	.h_banner{
 		height: 125px;
-		background-image: url(../img/20141111_TORCH_taste_of_happiness_640px_125px.jpg);
+		background-image: url(../img/2014-xmas-web_Univ-640x150.jpg);
 
 	}
 	.maininfo{
@@ -46,4 +46,11 @@
 		margin:15px;
 	}
 
+}
+
+.hl{
+	color: #ffd900;
+}
+body{
+	color: #FFF;
 }

@@ -106,16 +106,16 @@ margin-top: 50px;
 @media (min-width: 768px){
 	body{
 	margin-top: 75px;
-}
+	}
 
-.link_3 .linkinfo{
-	background-color: #fff8e0;
+	.link_3 .linkinfo{
+		background-color: #fff8e0;
 
-}
-.link_4 .linkinfo{
-	background-color: #ffe89a;
+	}
+	.link_4 .linkinfo{
+		background-color: #ffe89a;
 
-}
+	}
 
 
 }
@@ -124,6 +124,17 @@ margin-top: 50px;
 	body{
 	margin-top: 50px;
 
+	}
 }
 
-
+footer{
+	background-color: #ffd900;		
+	}
+footer .fbanner{
+	background-color: #ffd900;
+	background-image: url(../img/2014-xmas-web_banner-950x250.jpg);
+	background-size:contain;
+	background-position: center center;
+	background-repeat: no-repeat;
+	height: 250px;
+}
