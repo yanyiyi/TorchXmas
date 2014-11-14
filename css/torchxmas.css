@@ -55,7 +55,8 @@ margin-top: 50px;
 	background-color: #ffd900;
 	margin-bottom: 20px;
 	min-height: 320px;
-	height: 30%;	
+	height: 30%;
+	max-height: 480px;	
 }
 .tubeframe{
 	height: 100%;
